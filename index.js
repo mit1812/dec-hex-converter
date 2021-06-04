@@ -15,6 +15,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.get('/', (req, res) => res.send('Welcome! visit /api-docs'));
 app.get('/api/convert/:value', decimalToHexConverter);
 
 app.listen(PORT, () => {

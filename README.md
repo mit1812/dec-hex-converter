@@ -12,15 +12,14 @@ It is out of the box user friendly and ready to use or alternatively you can use
 
 ## Getting Started
 
-You can either clone the repo directly and run the `npm start` command or alternatively if you would just like to use the api then it is hosted here
+You can either clone the repo directly and run the `npm start` command or alternatively if you would just like to use the api then it is hosted [here](https://decimal-to-hexadecimal.herokuapp.com/api-docs/api-docs)
 
 For Api documentation visit:
-
+locally:
 /api-docs
 
 ## # To do:
 
-- [] finish readme
+- Update Homepage
 - Add typescript
-- Deploy to heroku and update doc with links
 - Add dockerfile
