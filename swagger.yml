@@ -3,7 +3,7 @@ info:
   title: Decimal to Hexadecimal API
   version: 0.1.9
 servers:
-  - url: http://localhost:3000
+  - url: /
 paths:
   /api/convert/{value}:
     get:
