@@ -17,7 +17,7 @@ const PORT = process.env.PORT;
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.get('/api/convert/:value', decimalToHexConverter);
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
 
