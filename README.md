@@ -14,7 +14,11 @@ It is out of the box user friendly and ready to use or alternatively you can use
 
 You can either clone the repo directly and run the `npm start` command or alternatively if you would just like to use the hosted api then documentation can be found [here](https://decimal-to-hexadecimal.herokuapp.com/api-docs/api-docs)
 
-## # To do:
+### Tests:
+
+Tests can be run with the `npm test` command
+
+### To do:
 
 - Update Homepage
 - Add typescript
