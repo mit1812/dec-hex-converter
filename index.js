@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'development') {
 const swaggerDocument = YAML.load('./swagger.yml');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.get('/api/convert/:value', decimalToHexConverter);
