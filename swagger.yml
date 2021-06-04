@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: Decimal to Hexadecimal API
+  version: 0.1.9
+servers:
+  - url: http://localhost:3000
+paths:
+  /api/convert/{value}:
+    get:
+      summary: Returns the hexadecimal equivalent value of the input
+      parameters:
+        - in: path
+          name: value
+          schema:
+            type: string
+          required: true
+          description: Numeric input value that will be converted
+      responses:
+        '200':
+          description: A JSON object representing the result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
+                    example: '5'
+        '400':
+          description: Error bad request
