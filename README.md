@@ -12,11 +12,7 @@ It is out of the box user friendly and ready to use or alternatively you can use
 
 ## Getting Started
 
-You can either clone the repo directly and run the `npm start` command or alternatively if you would just like to use the api then it is hosted [here](https://decimal-to-hexadecimal.herokuapp.com/api-docs/api-docs)
-
-For Api documentation visit:
-locally:
-/api-docs
+You can either clone the repo directly and run the `npm start` command or alternatively if you would just like to use the hosted api then documentation can be found [here](https://decimal-to-hexadecimal.herokuapp.com/api-docs/api-docs)
 
 ## # To do:
 
